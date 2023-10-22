@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 Flask >= 1.1.1
 gunicorn >=19.9.0
 numpy<2.0,>=1.17.3
 scipy>=1.5.0
 joblib>=1.1.1
 scikit-learn>=1.3.1
+=======
+Flask >= 1.1.1
+gunicorn >=19.9.0
+numpy<2.0,>=1.17.3
+scipy>=1.5.0
+joblib>=1.1.1
+scikit-learn>=1.3.1
+>>>>>>> 4101dabcc99d01165dfa92f4533218e2f18076da
 threadpoolctl>=2.0.0
