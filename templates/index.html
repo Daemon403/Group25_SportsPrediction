@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFA RATING PREDICTIONS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 200px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>FIFA RATING PREDICTIONS</h1>
+    <form action="/sub" method="POST">
+        <div style="align-content: center;">
+            <div>
+                <input type="text" name="Value" placeholder="Value">
+                <input type="text" name="Wage" placeholder="Wage">
+                <input type="text" name="Age" placeholder="Age">
+                <input type="text" name="Height" placeholder="Height">
+                <input type="text" name="Weight" placeholder="Weight">
+                <input type="text" name="League Level" placeholder="League Level">
+                <input type="text" name="Weak Foot" placeholder="Weak Foot">
+            </div>
+            <div>
+                <input type="text" name="Skill moves" placeholder="Skill moves">
+                <input type="text" name="International reputation" placeholder="International reputation">
+                <input type="text" name="Release Clause" placeholder="Release Clause">
+                <input type="text" name="Pace" placeholder="Pace">
+                <input type="text" name="Shooting" placeholder="Shooting">
+                <input type="text" name="Passing" placeholder="Passing">
+                <input type="text" name="Dribbling" placeholder="Dribbling">
+            </div>
+            <div>
+                <input type="text" name="Defending" placeholder="Defending">
+                <input type="text" name="Physicality" placeholder="Physicality">
+                <input type="text" name="Attacking Crossing" placeholder="Attacking Crossing">
+                <input type="text" name="Attacking Finishing" placeholder="Attacking Finishing">
+                <input type="text" name="Attacking Heading" placeholder="Attacking Heading">
+                <input type="text" name="Attacking Short passing" placeholder="Attacking Short passing">
+                <input type="text" name="Attacking Volleys" placeholder="Attacking Volleys">
+            </div>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
