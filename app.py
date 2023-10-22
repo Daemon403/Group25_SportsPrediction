@@ -3,8 +3,8 @@ import pickle,joblib
 import numpy as np
 
 app = Flask(__name__)
-#model = pickle.load(open('./model.pkl', 'rb')) 
-model = joblib.load(open('./modelfinal.joblib', 'rb'))
+model = pickle.load(open('./model.pkl', 'rb')) 
+#model = joblib.load(open('./modelfinal.joblib', 'rb'))
 
 @app.route("/")
 def predict():
